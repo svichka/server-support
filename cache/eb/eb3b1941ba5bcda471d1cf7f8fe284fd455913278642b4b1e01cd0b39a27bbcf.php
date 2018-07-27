@@ -1,130 +1,152 @@
-<!DOCTYPE HTML>
-<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
-<!--[if IE 9]>         <html class="ie9"> <![endif]-->
-<head>
-    <meta charset="UTF-8">
+<?php
 
-    <meta content="width=device-width" name="viewport" id="viewport">
+/* index.html.twig */
+class __TwigTemplate_1ae63aad0b5730cb91b4a5730b39ce737d26e7c728d469dfafd0f86da5e0680c extends Twig_Template
+{
+    private $source;
+
+    public function __construct(Twig_Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = array(
+        );
+    }
+
+    protected function doDisplay(array $context, array $blocks = array())
+    {
+        // line 1
+        echo "<!DOCTYPE HTML>
+<!--[if lt IE 7]>      <html class=\"lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->
+<!--[if IE 7]>         <html class=\"lt-ie9 lt-ie8\"> <![endif]-->
+<!--[if IE 8]>         <html class=\"lt-ie9\"> <![endif]-->
+<!--[if IE 9]>         <html class=\"ie9\"> <![endif]-->
+<head>
+    <meta charset=\"UTF-8\">
+
+    <meta content=\"width=device-width\" name=\"viewport\" id=\"viewport\">
 
     <title>server-support.ru - Профессиональная поддержка Linux серверов</title>
 
-    <link rel="icon" type="image/png" href="images/favicon_16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="images/favicon_32.png" sizes="32x32">
+    <link rel=\"icon\" type=\"image/png\" href=\"images/favicon_16.png\" sizes=\"16x16\">
+    <link rel=\"icon\" type=\"image/png\" href=\"images/favicon_32.png\" sizes=\"32x32\">
 
-<!--    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet"> -->
-    <link href="css/fonts.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+<!--    <link href=\"https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic\" rel=\"stylesheet\"> -->
+    <link href=\"css/fonts.css\" rel=\"stylesheet\">
+    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" media=\"all\">
 </head>
 
 <body>
 
 <!--
-<div style="position: absolute; background: url('scrin/Shablon Materials.png'); width: 1920px; height: 7812px; opacity: .5; top: 0; left: 50%; margin-left: -960px; z-index: -1"></div>
+<div style=\"position: absolute; background: url('scrin/Shablon Materials.png'); width: 1920px; height: 7812px; opacity: .5; top: 0; left: 50%; margin-left: -960px; z-index: -1\"></div>
 -->
 
-<header class="header header-main">
-    <div class="header-container">
-        <div class="header-logo">
-            <a href="/"><img src="images/logo.svg" alt=""></a>
+<header class=\"header header-main\">
+    <div class=\"header-container\">
+        <div class=\"header-logo\">
+            <a href=\"/\"><img src=\"images/logo.svg\" alt=\"\"></a>
         </div>
-        <nav class="header-nav">
-            <ul class="header-nav-list">
-                <li class="header-nav-item"><a href="#services" class="header-nav-link">Услуги</a></li>
-                <li class="header-nav-item"><a href="#price" class="header-nav-link">Цены</a></li>
-                <li class="header-nav-item"><a href="#about" class="header-nav-link">Клиенты</a></li>
-                <li class="header-nav-item"><a href="#contacts" class="header-nav-link">Контакты</a></li>
+        <nav class=\"header-nav\">
+            <ul class=\"header-nav-list\">
+                <li class=\"header-nav-item\"><a href=\"#services\" class=\"header-nav-link\">Услуги</a></li>
+                <li class=\"header-nav-item\"><a href=\"#price\" class=\"header-nav-link\">Цены</a></li>
+                <li class=\"header-nav-item\"><a href=\"#about\" class=\"header-nav-link\">Клиенты</a></li>
+                <li class=\"header-nav-item\"><a href=\"#contacts\" class=\"header-nav-link\">Контакты</a></li>
             </ul>
-            <div class="header-user">
-                <a href="" class="header-login">Войти</a>
+            <div class=\"header-user\">
+                <a href=\"\" class=\"header-login\">Войти</a>
             </div>
         </nav>
-        <div class="header-trigger"></div>
+        <div class=\"header-trigger\"></div>
     </div>
-    <div class="header-mobile">
-        <div class="header-mobile-wrap">
-            <div class="header-mobile-nav">
+    <div class=\"header-mobile\">
+        <div class=\"header-mobile-wrap\">
+            <div class=\"header-mobile-nav\">
                 <ul>
-                    <li><a href="#services">Услуги</a></li>
-                    <li><a href="#price">Цены</a></li>
-                    <li><a href="#about">О нас</a></li>
-                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href=\"#services\">Услуги</a></li>
+                    <li><a href=\"#price\">Цены</a></li>
+                    <li><a href=\"#about\">О нас</a></li>
+                    <li><a href=\"#contacts\">Контакты</a></li>
                 </ul>
             </div>
-            <div class="header-mobile-contacts">
-                <p><a href="tel:+74950183638" class="header-mobile-phone">8(495)018-36-38</a></p>
-                <p><a href="mailto:admins@server-support.ru" class="header-mobile-mail">admins@server-support.ru</a></p>
-                <div class="header-mobile-copyright">© 2009—2018 server-support.ru</div>
+            <div class=\"header-mobile-contacts\">
+                <p><a href=\"tel:+74950183638\" class=\"header-mobile-phone\">8(495)018-36-38</a></p>
+                <p><a href=\"mailto:admins@server-support.ru\" class=\"header-mobile-mail\">admins@server-support.ru</a></p>
+                <div class=\"header-mobile-copyright\">© 2009—2018 server-support.ru</div>
             </div>
         </div>
     </div>
 </header>
 
-<div class="header header-main header-scroll">
-    <div class="header-container">
-        <div class="header-logo">
-            <a href="/"><img src="images/logo.svg" alt=""></a>
+<div class=\"header header-main header-scroll\">
+    <div class=\"header-container\">
+        <div class=\"header-logo\">
+            <a href=\"/\"><img src=\"images/logo.svg\" alt=\"\"></a>
         </div>
-        <nav class="header-nav">
-            <ul class="header-nav-list">
-                <li class="header-nav-item"><a href="#services" class="header-nav-link">Услуги</a></li>
-                <li class="header-nav-item"><a href="#price" class="header-nav-link">Цены</a></li>
-                <li class="header-nav-item"><a href="#about" class="header-nav-link">Клиенты</a></li>
-                <li class="header-nav-item"><a href="#contacts" class="header-nav-link">Контакты</a></li>
+        <nav class=\"header-nav\">
+            <ul class=\"header-nav-list\">
+                <li class=\"header-nav-item\"><a href=\"#services\" class=\"header-nav-link\">Услуги</a></li>
+                <li class=\"header-nav-item\"><a href=\"#price\" class=\"header-nav-link\">Цены</a></li>
+                <li class=\"header-nav-item\"><a href=\"#about\" class=\"header-nav-link\">Клиенты</a></li>
+                <li class=\"header-nav-item\"><a href=\"#contacts\" class=\"header-nav-link\">Контакты</a></li>
             </ul>
-            <div class="header-user">
-                <a href="" class="header-login">Войти</a>
+            <div class=\"header-user\">
+                <a href=\"\" class=\"header-login\">Войти</a>
             </div>
         </nav>
     </div>
 </div>
 
 
-<section class="main">
-    <div class="main-container">
-        <div class="main-content">
+<section class=\"main\">
+    <div class=\"main-container\">
+        <div class=\"main-content\">
             <h1>
                 Обеспечиваем непрерывность<br>операций и бизнес-процессов
             </h1>
-            <div class="main-content-text">
+            <div class=\"main-content-text\">
                 <ul>
                     <li>Cтабильная работа ваших серверов</li>
-		    <li>Оптимизация затрат на IT</li>
+\t\t    <li>Оптимизация затрат на IT</li>
 <li>Эффективная техподдержка</li>
 <li>Надежная IT-инфраструктура для бизнес-задач</li>
                 </ul><br>
                 <p>
-                    <a href="/" class="main-link-more">Подробнее</a>
+                    <a href=\"/\" class=\"main-link-more\">Подробнее</a>
                 </p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="services">
-    <nav class="services-nav">
-        <ul class="services-nav-list">
-            <li class="services-nav-item"><a href="/" class="services-nav-link">DevOps</a></li>
-            <li class="services-nav-item"><a href="/" class="services-nav-link">Техподдержка сайтов и web-инфраструктуры</a></li>
-            <li class="services-nav-item"><a href="/" class="services-nav-link">Поддержка Linux серверов</a></li>
-            <li class="services-nav-item"><a href="/" class="services-nav-link">HighLoad</a></li>
-            <li class="services-nav-item"><a href="/" class="services-nav-link">IP Телефония</a></li>
+<section class=\"services\">
+    <nav class=\"services-nav\">
+        <ul class=\"services-nav-list\">
+            <li class=\"services-nav-item\"><a href=\"/\" class=\"services-nav-link\">DevOps</a></li>
+            <li class=\"services-nav-item\"><a href=\"/\" class=\"services-nav-link\">Техподдержка сайтов и web-инфраструктуры</a></li>
+            <li class=\"services-nav-item\"><a href=\"/\" class=\"services-nav-link\">Поддержка Linux серверов</a></li>
+            <li class=\"services-nav-item\"><a href=\"/\" class=\"services-nav-link\">HighLoad</a></li>
+            <li class=\"services-nav-item\"><a href=\"/\" class=\"services-nav-link\">IP Телефония</a></li>
         </ul>
     </nav>
 
-    <div class="services-container" id="services">
+    <div class=\"services-container\" id=\"services\">
         <h2>Услуги</h2>
 
-        <div class="services-items">
-            <div class="services-item">
-                <a href="/" class="services-item-link">
+        <div class=\"services-items\">
+            <div class=\"services-item\">
+                <a href=\"/\" class=\"services-item-link\">
                     <h3>Создание IT и web инфраструктуры</h3>
                     <p>Создание инфраструктуры под ваши цели, задачи и трафик.</p>
                 </a>
             </div>
-            <div class="services-item">
-                <a href="/" class="services-item-link">
+            <div class=\"services-item\">
+                <a href=\"/\" class=\"services-item-link\">
                     <h3>Эксплуатация и поддержка <br>Linux серверов</h3>
                     <p>
                         Обслуживание, развертывание
@@ -132,16 +154,16 @@
                     </p>
                 </a>
             </div>
-            <div class="services-item">
-                <a href="/" class="services-item-link">
+            <div class=\"services-item\">
+                <a href=\"/\" class=\"services-item-link\">
                     <h3>IT Ops</h3>
                     <p>
                          Управление ИТ услугами
                     </p>
                 </a>
             </div>
-            <div class="services-item">
-                <a href="/" class="services-item-link">
+            <div class=\"services-item\">
+                <a href=\"/\" class=\"services-item-link\">
                     <h3>Облачные сервисы Google Cloud Platform, Amazon AWS, MS Azure</h3>
                     <p>
                         Поддержка инфраструктуры
@@ -149,16 +171,16 @@
                     </p>
                 </a>
             </div>
-            <div class="services-item">
-                <a href="/" class="services-item-link">
+            <div class=\"services-item\">
+                <a href=\"/\" class=\"services-item-link\">
                     <h3>SRE Site reliability engineering</h3>
                     <p>
                         Создание сверхмасштабируемых и высоконадежных систем.<br><br>Kubernetes, Docker
                     </p>
                 </a>
             </div>
-            <div class="services-item">
-                <a href="/" class="services-item-link">
+            <div class=\"services-item\">
+                <a href=\"/\" class=\"services-item-link\">
                     <h3>DevOps</h3>
                     <p>
                         Выстраивание, отладка
@@ -174,17 +196,17 @@
 </section>
 
 
-<section class="how">
-    <div class="how-container">
+<section class=\"how\">
+    <div class=\"how-container\">
         <h2>Принципы</h2>
-        <div class="how-items">
-            <a href="/" class="how-item">
+        <div class=\"how-items\">
+            <a href=\"/\" class=\"how-item\">
                 <h3>Безопасность</h3>
                 <p>Защита ваших проектов всегда на первом месте. Большой опыт и собственные разработки в области защиты сетей, web-сервисов и данных.
                 </p>
-                <p><span class="how-item-more">Подробнее</span></p>
+                <p><span class=\"how-item-more\">Подробнее</span></p>
             </a>
-            <a href="/" class="how-item">
+            <a href=\"/\" class=\"how-item\">
                 <h3>Четко выстроенные цепочки управления и контроля</h3>
                 <p>
                     Активно используем опыт и практики ITSM
@@ -192,73 +214,73 @@
                     не забываем и четко выполняем все сроки
                     и условия обслуживания.
                 </p>
-                <p><span class="how-item-more">Подробнее</span></p>
+                <p><span class=\"how-item-more\">Подробнее</span></p>
             </a>
-            <a href="/" class="how-item">
+            <a href=\"/\" class=\"how-item\">
                 <h3>Максимальная автоматизация административных задач</h3>
                 <p>
                     Чем меньше мы работаем руками, тем меньше стоимость наших услуг для вас. Более 95% регламентных работ по поддержке производится автоматически.
                 </p>
-                <p><span class="how-item-more">Подробнее</span></p>
+                <p><span class=\"how-item-more\">Подробнее</span></p>
             </a>
-            <a href="/" class="how-item">
+            <a href=\"/\" class=\"how-item\">
                 <h3>Конфиденциальность</h3>
                 <p>
                     При необходимости заключаем соглашение о неразглашении до начала обсуждения проектов и задач. А с началом обслуживания, соглашение становятся неотъемлемой частью договора.
                 </p>
-                <p><span class="how-item-more">Подробнее</span></p>
+                <p><span class=\"how-item-more\">Подробнее</span></p>
             </a>
-            <a href="/" class="how-item">
+            <a href=\"/\" class=\"how-item\">
                 <h3>Мониторинг всего и вся... буквально.</h3>
                 <p>
                     Каждый сервер, сервис, узел сети подключается к мониторингу. Мы ведем учет всего, что можно посчитать и измерить. Начиная от температуры  в серверной и заканчивая количеством пользователей на каждом сервере.
                 </p>
-                <p><span class="how-item-more">Подробнее</span></p>
+                <p><span class=\"how-item-more\">Подробнее</span></p>
             </a>
-            <a href="/" class="how-item">
+            <a href=\"/\" class=\"how-item\">
                 <h3>Многоуровневое резервное копирование</h3>
                 <p>
                     20 летний опыт эксплуатации различных сетей, сервисов и систем подсказывает единственно верный способ хранить резервные копии: Принцип 3-2-1.
                 </p>
-                <p><span class="how-item-more">Подробнее</span></p>
+                <p><span class=\"how-item-more\">Подробнее</span></p>
             </a>
         </div>
     </div>
 </section>
 
-<section class="get">
-    <div class="get-container">
+<section class=\"get\">
+    <div class=\"get-container\">
         <h2>Что Вы получаете, работая с нами</h2>
-        <div class="get-items">
-            <div class="get-item">
-                <div class="get-icon"><img src="images/icon-24.svg" alt=""></div>
-                <div class="get-text">
+        <div class=\"get-items\">
+            <div class=\"get-item\">
+                <div class=\"get-icon\"><img src=\"images/icon-24.svg\" alt=\"\"></div>
+                <div class=\"get-text\">
                     Непрерывность бизнес-процессов
                 </div>
             </div>
-            <div class="get-item">
-                <div class="get-icon"><img src="images/icon-budget.svg" alt=""></div>
-                <div class="get-text">
+            <div class=\"get-item\">
+                <div class=\"get-icon\"><img src=\"images/icon-budget.svg\" alt=\"\"></div>
+                <div class=\"get-text\">
                     Понятный
                     и прозрачный бюджет
                 </div>
             </div>
-            <div class="get-item">
-                <div class="get-icon"><img src="images/icon-time.svg" alt=""></div>
-                <div class="get-text">
+            <div class=\"get-item\">
+                <div class=\"get-icon\"><img src=\"images/icon-time.svg\" alt=\"\"></div>
+                <div class=\"get-text\">
                     Минимальное время реакции
                 </div>
             </div>
-            <div class="get-item">
-                <div class="get-icon"><img src="images/icon-list.svg" alt=""></div>
-                <div class="get-text">
+            <div class=\"get-item\">
+                <div class=\"get-icon\"><img src=\"images/icon-list.svg\" alt=\"\"></div>
+                <div class=\"get-text\">
                     Ответственность
                     исполнителей
                 </div>
             </div>
-            <div class="get-item">
-                <div class="get-icon"><img src="images/icon-people.svg" alt=""></div>
-                <div class="get-text">
+            <div class=\"get-item\">
+                <div class=\"get-icon\"><img src=\"images/icon-people.svg\" alt=\"\"></div>
+                <div class=\"get-text\">
                     Услуги экспертов
                     по минимальной стоимости
                 </div>
@@ -268,18 +290,18 @@
 </section>
 
 <!--
-<section class="who" id="about">
-    <div class="who-container">
+<section class=\"who\" id=\"about\">
+    <div class=\"who-container\">
         <h2>Кто мы</h2>
 
-        <div class="who-video">
-            <iframe width="100%" height="450px" src="https://www.youtube.com/embed/tD99WhUKJR4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class=\"who-video\">
+            <iframe width=\"100%\" height=\"450px\" src=\"https://www.youtube.com/embed/tD99WhUKJR4?rel=0&amp;controls=0&amp;showinfo=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
         </div>
 
-        <div class="who-content">
-            <img src="pictures/photo.png" alt="" align="right">
+        <div class=\"who-content\">
+            <img src=\"pictures/photo.png\" alt=\"\" align=\"right\">
             <h3>Наша команда сосредоточила в себе опыт десятков компаний и сотен успешных проектов.</h3>
-            <div class="who-content-text">
+            <div class=\"who-content-text\">
                 <p>
                     Мы не коммерсанты, не бизнесмены, мы команда профессиональных админов и руководителей проектов с серьезным опытом за плечами.  Мы пришли из разных компаний, таких как Яндекс, Мегафон, Евросеть.
                 </p>
@@ -296,144 +318,144 @@
 </section>
 -->
 
-<section class="clients" id="about">
-    <div class="clients-container">
+<section class=\"clients\" id=\"about\">
+    <div class=\"clients-container\">
         <br><br><br>
         <h2>Наши клиенты</h2>
 
-        <div class="clients-items">
-            <div class="clients-item">
-                <img src="pictures/company1.png" alt="">
-                <div class="clients-item-content">
+        <div class=\"clients-items\">
+            <div class=\"clients-item\">
+                <img src=\"pictures/company1.png\" alt=\"\">
+                <div class=\"clients-item-content\">
                     <h3>HARPOON</h3>
-                    <div class="clients-item-text">
+                    <div class=\"clients-item-text\">
                         <p>Ведущий российский производитель и поставщик профессионального крепежа.</p>
                         <p>
-                            <a href="https://harpoon.pro" target="_blank">harpoon.pro</a>
+                            <a href=\"https://harpoon.pro\" target=\"_blank\">harpoon.pro</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="clients-item">
-                <img src="pictures/company2.png" alt="">
-                <div class="clients-item-content">
+            <div class=\"clients-item\">
+                <img src=\"pictures/company2.png\" alt=\"\">
+                <div class=\"clients-item-content\">
                     <h3>Компания INTOUCH</h3>
-                    <div class="clients-item-text">
+                    <div class=\"clients-item-text\">
                         <p>
                             работает на российском рынке с 2008 года, специализируется на модели прямого страхования — страхования без посредников, осуществляя оформление договора по телефону и через сеть интернет.                        </p>
                         <p>
-                            <a href="https://www.in-touch.ru/about/" target="_blank">www.in-touch.ru</a>
+                            <a href=\"https://www.in-touch.ru/about/\" target=\"_blank\">www.in-touch.ru</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="clients-item">
-                <img src="pictures/company3.png" alt="">
-                <div class="clients-item-content">
+            <div class=\"clients-item\">
+                <img src=\"pictures/company3.png\" alt=\"\">
+                <div class=\"clients-item-content\">
                     <h3>Интернет-магазин Связной</h3>
-                    <div class="clients-item-text">
+                    <div class=\"clients-item-text\">
                         <p>
                             Федеральная розничная сеть, специализирующаяся на продаже услуг сотовых операторов и провайдеров, портативной цифровой аудио- и фототехники.
                         </p>
                         <p>
-                            <a href="https://www.svyaznoy.ru" target="_blank">www.svyaznoy.ru</a>
+                            <a href=\"https://www.svyaznoy.ru\" target=\"_blank\">www.svyaznoy.ru</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="clients-item">
-                <img src="pictures/company4.png" alt="">
-                <div class="clients-item-content">
+            <div class=\"clients-item\">
+                <img src=\"pictures/company4.png\" alt=\"\">
+                <div class=\"clients-item-content\">
                     <h3>Игромания</h3>
-                    <div class="clients-item-text">
+                    <div class=\"clients-item-text\">
                         <p>
                             Крупнейший российский ежемесячный журнал и сайт, посвящённый компьютерным играм.
                         </p>
                         <p>
-                            <a href="https://www.igromania.ru/" target="_blank">www.igromania.ru</a>
+                            <a href=\"https://www.igromania.ru/\" target=\"_blank\">www.igromania.ru</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="clients-item">
-                <img src="pictures/company5.png" alt="">
-                <div class="clients-item-content">
+            <div class=\"clients-item\">
+                <img src=\"pictures/company5.png\" alt=\"\">
+                <div class=\"clients-item-content\">
                     <h3>Мир Фантастики</h3>
-                    <div class="clients-item-text">
+                    <div class=\"clients-item-text\">
                         <p>
                             Ежемесячный российский журнал и сайт о фэнтези и фантастике во всех их проявлениях.
                         </p>
                         <p>
-                            <a href="https://www.mirf.ru/" target="_blank">www.mirf.ru</a>
+                            <a href=\"https://www.mirf.ru/\" target=\"_blank\">www.mirf.ru</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="clients-item">
-                <img src="pictures/company7.png" alt="">
-                <div class="clients-item-content">
+            <div class=\"clients-item\">
+                <img src=\"pictures/company7.png\" alt=\"\">
+                <div class=\"clients-item-content\">
                     <h3>«Ташир»</h3>
-                    <div class="clients-item-text">
+                    <div class=\"clients-item-text\">
                         <p>
                              Крупнейшая в России диверсифицированная промышленно-строительная группа федерального масштаба, реализующая свою деятельность по ключевым направлениям в ведущих секторах экономики страны и объединяющая более 200 компаний.
                         </p>
                         <p>
-                            <a href="http://www.tashir.ru/about/" target="_blank">www.tashir.ru</a>
+                            <a href=\"http://www.tashir.ru/about/\" target=\"_blank\">www.tashir.ru</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="clients-item">
-                <img src="pictures/company8.png" alt="">
-                <div class="clients-item-content">
+            <div class=\"clients-item\">
+                <img src=\"pictures/company8.png\" alt=\"\">
+                <div class=\"clients-item-content\">
                     <h3>Интернет-магазин Fashion-sport.ru</h3>
-                    <div class="clients-item-text">
+                    <div class=\"clients-item-text\">
                         <p>
                             Интернет-магазин одежды.
                         </p>
                         <p>
-                            <a href="https://www.fashion-sport.ru/" target="_blank">www.fashion-sport.ru</a>
+                            <a href=\"https://www.fashion-sport.ru/\" target=\"_blank\">www.fashion-sport.ru</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="clients-item">
-                <img src="pictures/company9.png" alt="">
-                <div class="clients-item-content">
+            <div class=\"clients-item\">
+                <img src=\"pictures/company9.png\" alt=\"\">
+                <div class=\"clients-item-content\">
                     <h3>Skadi</h3>
-                    <div class="clients-item-text">
+                    <div class=\"clients-item-text\">
                         <p>
 Мобильное приложение для горнолыжного отдыха созданное в сотруднечестве с Международной Федерацией Лыжного спорта (FIS), Швейцария</p>
                         <p>
-                            <a href="http://www.skadi.guide/" target="_blank">www.skadi.guide</a>
+                            <a href=\"http://www.skadi.guide/\" target=\"_blank\">www.skadi.guide</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="clients-item">
-                <img src="pictures/company10.png" alt="">
-                <div class="clients-item-content">
+            <div class=\"clients-item\">
+                <img src=\"pictures/company10.png\" alt=\"\">
+                <div class=\"clients-item-content\">
                     <h3>Санрайз Тур</h3>
-                    <div class="clients-item-text">
+                    <div class=\"clients-item-text\">
                         <p>
                             Ведущая туристическая компания на российском рынке, которая работает уже более 20 лет.
                         </p>
                         <p>
-                            <a href="https://www.sunrise-tour.ru" target="_blank">www.sunrise-tour.ru</a>
+                            <a href=\"https://www.sunrise-tour.ru\" target=\"_blank\">www.sunrise-tour.ru</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="clients-item">
-                <img src="pictures/company11.png" alt="">
-                <div class="clients-item-content">
+            <div class=\"clients-item\">
+                <img src=\"pictures/company11.png\" alt=\"\">
+                <div class=\"clients-item-content\">
                     <h3>Народный журналист</h3>
-                    <div class="clients-item-text">
+                    <div class=\"clients-item-text\">
                         <p>
                             Политический новостной дайджест.
                         </p>
                         <p>
-                            <a href="https://narzur.ru/" target="_blank">narzur.ru</a>
+                            <a href=\"https://narzur.ru/\" target=\"_blank\">narzur.ru</a>
                         </p>
                     </div>
                 </div>
@@ -443,28 +465,28 @@
 </section>
 
 
-<section class="reviews">
-    <div class="reviews-container">
+<section class=\"reviews\">
+    <div class=\"reviews-container\">
         <h2>Отзывы</h2>
 
-        <div class="reviews-slider">
+        <div class=\"reviews-slider\">
             <div>
-                <div class="reviews-slide">
-                    <div class="reviews-slider-user">
-                        <div class="reviews-slider-avatar">
-                            <img src="pictures/iorlov3.png" alt="">
+                <div class=\"reviews-slide\">
+                    <div class=\"reviews-slider-user\">
+                        <div class=\"reviews-slider-avatar\">
+                            <img src=\"pictures/iorlov3.png\" alt=\"\">
                         </div>
                         <br>
                         <p>
                             <span>Иван Орлов</span>
-                            Учредитель, Генеральный директор<br>Группа Компаний "Гарпун"
+                            Учредитель, Генеральный директор<br>Группа Компаний \"Гарпун\"
                         </p>
                         <p>
-                            <a href="https://harpoon.pro" target="_blank" >harpoon.pro</a>
+                            <a href=\"https://harpoon.pro\" target=\"_blank\" >harpoon.pro</a>
                         </p>
 
                     </div>
-                    <div class="reviews-slider-content">
+                    <div class=\"reviews-slider-content\">
                         <h3>С командой Server-Support сотрудничаем более 10 лет.</h3>
                         <p>
 У нас была создана распределенная ИТ-инфраструктура на базе Linux, которая работает сама в режиме 24x7 и включает в себя объединенную компьютерную сеть на 9 офисов и производство, находящихся на территории России и Азии. При этом текущей тех.поддержкой пользователей занимаются всего 2(два) наших сотрудника!!!
@@ -474,10 +496,10 @@
                 </div>
             </div>
             <div>
-                <div class="reviews-slide">
-                    <div class="reviews-slider-user">
-                        <div class="reviews-slider-avatar">
-                            <img src="pictures/maznev.jpg" alt="">
+                <div class=\"reviews-slide\">
+                    <div class=\"reviews-slider-user\">
+                        <div class=\"reviews-slider-avatar\">
+                            <img src=\"pictures/maznev.jpg\" alt=\"\">
                         </div>
                         <br>
                         <p>
@@ -485,11 +507,11 @@
                             CEO, MOBILE ANGELS
                         </p>
                         <p>
-                            <a href="http://mobangels.com/" target="_blank" >mobangels.com</a>
+                            <a href=\"http://mobangels.com/\" target=\"_blank\" >mobangels.com</a>
                         </p>
                             
                     </div>
-                    <div class="reviews-slider-content">
+                    <div class=\"reviews-slider-content\">
                         <h3>Стабильные и надежные ребята!</h3>
                         <p>
                             Вот уже более двух лет приходят нам на помощь в самых разных проектах. Одним из последних была настройка и запуск в эксплуатацию облачной инфраструктуры для мобильного приложения. Все работы были проведены на высшем уровне. Команда Server Support – компетентные и ответственные профессионалы, на которых можно положиться!
@@ -498,22 +520,22 @@
                 </div>
             </div>
             <div>
-                <div class="reviews-slide">
-                    <div class="reviews-slider-user">
-                        <div class="reviews-slider-avatar">
-                            <img src="pictures/isupov2.jpg" alt="">
+                <div class=\"reviews-slide\">
+                    <div class=\"reviews-slider-user\">
+                        <div class=\"reviews-slider-avatar\">
+                            <img src=\"pictures/isupov2.jpg\" alt=\"\">
                         </div>
                         <br>
                         <p>
                             <span>Евгений Исупов</span>
-                            Учредитель, Генеральный директор<br>Журнал "Игромания"
+                            Учредитель, Генеральный директор<br>Журнал \"Игромания\"
                         </p>
                         <p>
-                            <a href="https://www.igromania.ru/" target="_blank" >www.igromania.ru</a>
+                            <a href=\"https://www.igromania.ru/\" target=\"_blank\" >www.igromania.ru</a>
                         </p>
 
                     </div>
-                    <div class="reviews-slider-content">
+                    <div class=\"reviews-slider-content\">
                         <h3>Компания Server-Support.ru показала себя надёжным партнером,</h3>
                         <p> 
 которого отличает отзывчивость, искреннее отношение к работе и погружение в бизнес-процессы компании.<br> 
@@ -525,10 +547,10 @@
                 </div>
             </div>
             <div>
-                <div class="reviews-slide">
-                    <div class="reviews-slider-user">
-                        <div class="reviews-slider-avatar">
-                            <img src="pictures/sereb.jpg" alt="">
+                <div class=\"reviews-slide\">
+                    <div class=\"reviews-slider-user\">
+                        <div class=\"reviews-slider-avatar\">
+                            <img src=\"pictures/sereb.jpg\" alt=\"\">
                         </div>
                         <br>
                         <p>
@@ -536,11 +558,11 @@
                         главный редактор, Мир Фантастики
                         </p>
                         <p>
-                            <a href="https://www.mirf.ru/" target="_blank" >www.mirf.ru</a>
+                            <a href=\"https://www.mirf.ru/\" target=\"_blank\" >www.mirf.ru</a>
                         </p>
 
                     </div>
-                    <div class="reviews-slider-content">
+                    <div class=\"reviews-slider-content\">
                         <h3>5 лет работаем с server-support.ru</h3>
                         <p>
                            За это время прошли через многое,была построена собственная сеть раздачи контента, разработана и внедрена система анализа действий пользователей на сайтах с динамической блокировкой нарушителей и ботов и - это лишь малая часть с чем нам помогают сотрудники этой компании. 
@@ -550,20 +572,20 @@
                 </div>
             </div>
             <div>
-                <div class="reviews-slide">
-                    <div class="reviews-slider-user">
-                        <div class="reviews-slider-avatar">
-                            <img src="pictures/avatar.png" alt="">
+                <div class=\"reviews-slide\">
+                    <div class=\"reviews-slider-user\">
+                        <div class=\"reviews-slider-avatar\">
+                            <img src=\"pictures/avatar.png\" alt=\"\">
                         </div>
                         <p>
                             <span>Юрий Гагарин</span>
-                             хороший человек<br>ГК "Ташир"
+                             хороший человек<br>ГК \"Ташир\"
                         </p>
                         <p>
-                            <a href="http://www.tashir.ru/about/" target="_blank" >www.tashir.ru</a>
+                            <a href=\"http://www.tashir.ru/about/\" target=\"_blank\" >www.tashir.ru</a>
                         </p>
                     </div>
-                    <div class="reviews-slider-content">
+                    <div class=\"reviews-slider-content\">
                         <h3>Это было невероятно!</h3>
                         <p>
                             Парни буквально за день создали систему управления серверами через SMS сообщения!<br><br>Рекомендую!<br><br><br><br><br><br>
@@ -575,13 +597,13 @@
     </div>
 </section>
 
-<section class="price" id="price">
-    <div class="services-container">
+<section class=\"price\" id=\"price\">
+    <div class=\"services-container\">
         <h2>Цены</h2>
-        <div class="services-items">
+        <div class=\"services-items\">
 
-            <div class="services-item">
-                <div class="services-item-link">
+            <div class=\"services-item\">
+                <div class=\"services-item-link\">
                     <h3>Разовые работы</h3>
                         <p>Подойдут для разовых задач или если у вас небольшой объем.</br></br>
 Если задача в рамках проекта и трудозатраты исчисляются днями, то стоимость оговаривается индивидуально, после ознакомления с вашим целями, проведением нами бесплатного технического аудита и утверждения ТЗ.</br></br>
@@ -592,8 +614,8 @@
 </div>
             </div>
             
-            <div class="services-item">
-                <div class="services-item-link">
+            <div class=\"services-item\">
+                <div class=\"services-item-link\">
                     <h3>Первичная настройка</h3>
                     Включает:
                     <ul>
@@ -609,8 +631,8 @@
                 </div>
             </div>
 
-            <div class="services-item">
-                <div class="services-item-link">
+            <div class=\"services-item\">
+                <div class=\"services-item-link\">
                     <h3>Поддержка серверов</h3>
                     Включает:
                     <ul>
@@ -633,53 +655,89 @@
 
 </section>
 
-<section class="contacts" id="contacts">
-    <div class="contacts-container">
+<section class=\"contacts\" id=\"contacts\">
+    <div class=\"contacts-container\">
         <h2>Контакты</h2>
-        <div class="contacts-content">
-            <div class="contacts-text">
-                <div class="contacts-info">
+        <div class=\"contacts-content\">
+            <div class=\"contacts-text\">
+                <div class=\"contacts-info\">
                     <p>
-                        <a href="tel:+74950183638" class="contacts-info-phone">8(495)018-36-38</a>
+                        <a href=\"tel:+74950183638\" class=\"contacts-info-phone\">8(495)018-36-38</a>
                     </p>
                     <p>
-                        <a href="mailto:admins@server-support.ru" class="contacts-info-mail">admins@server-support.ru</a>
+                        <a href=\"mailto:admins@server-support.ru\" class=\"contacts-info-mail\">admins@server-support.ru</a>
                     </p>
                 </div>
             </div>
-            <div class="contacts-form">
+            <div class=\"contacts-form\">
                 <h3>Форма обратной связи</h3>
-                <form action="#">
+                <form action=\"\" name=\"";
+        // line 652
+        echo twig_escape_filter($this->env, ($context["form"] ?? null), "html", null, true);
+        echo "\" method=\"post\">
                     <label>
-                        <input type="text" placeholder=" ">
+                        <input type=\"text\" placeholder=\" \" name=\"";
+        // line 654
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["fields"] ?? null), "name", array()), "html", null, true);
+        echo "\">
                         <span>Имя</span>
                     </label>
                     <label>
-                        <input type="phone" placeholder=" ">
+                        <input type=\"phone\" placeholder=\" \" name=\"";
+        // line 658
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["fields"] ?? null), "phone", array()), "html", null, true);
+        echo "\">
                         <span>Ваш номер телефона</span>
                     </label>
                     <label>
-                        <textarea type="text" placeholder=" "></textarea>
+                        <textarea type=\"text\" placeholder=\" \" name=\"";
+        // line 662
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["fields"] ?? null), "text", array()), "html", null, true);
+        echo "\"></textarea>
                         <span>Сообщение</span>
                     </label>
-                    <button class="">Отправить</button>
+                    <input type=\"hidden\" value=\"";
+        // line 665
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["fields"] ?? null), "csrf", array()), "html", null, true);
+        echo "\" name=\"";
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["fields"] ?? null), "token", array()), "html", null, true);
+        echo "\">
+                    <div class=\"g-recaptcha\" data-sitekey=\"6Lc6wWYUAAAAAGVClts_18V5anK8XF3frZ80ddPo\"></div>
+                    <button class=\"\">Отправить</button>
                 </form>
             </div>
         </div>
     </div>
 </section>
 
-<footer class="footer">
-    <div class="footer-container">
+<footer class=\"footer\">
+    <div class=\"footer-container\">
         <p>© 2009—2018 server-support.ru</p>
     </div>
 </footer>
-
-
-
-
-
-
-<script src="js/script.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src=\"js/script.js\"></script>
 </body>
-</html>
+</html>";
+    }
+
+    public function getTemplateName()
+    {
+        return "index.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  701 => 665,  695 => 662,  688 => 658,  681 => 654,  676 => 652,  23 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Twig_Source("", "index.html.twig", "C:\\open\\OpenServer\\domains\\server-support\\templates\\index.html.twig");
+    }
+}
